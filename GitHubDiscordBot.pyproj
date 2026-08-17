@@ -23,11 +23,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="bot.py" />
+    <Compile Include="updater.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".env" />
+    <Content Include=".env.example" />
     <Content Include=".gitignore" />
     <Content Include="requirements.txt" />
+    <Content Include="version.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include=".venv\">
