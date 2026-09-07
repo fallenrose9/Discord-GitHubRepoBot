@@ -29,6 +29,7 @@
     <Content Include=".env" />
     <Content Include=".env.example" />
     <Content Include=".gitignore" />
+    <Content Include="commands.txt" />
     <Content Include="requirements.txt" />
     <Content Include="version.txt" />
   </ItemGroup>
@@ -42,6 +43,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include=".venv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -4,3 +4,7 @@ __pycache__/
 release_state.json
 *.pyc
 *.zip
+backups/
+logs/
+update_download/
+bot.lock
